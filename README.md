@@ -4,8 +4,8 @@ General purpose embed fixer for Discord and Telegram.
 
 ## How to Use
 
-Take the link you would like to embed and add `fxweb.cc/` before the url.
-For example, `https://www.pixiv.net/en/artworks/110625803` becomes `https://fxweb.cc/www.pixiv.net/en/artworks/110625803`.
+Take the link you would like to embed and add `fxweb.dev/` before the url.
+For example, `https://www.pixiv.net/en/artworks/110625803` becomes `https://fxweb.dev/www.pixiv.net/en/artworks/110625803`.
 
 ## Supported Sites
 
