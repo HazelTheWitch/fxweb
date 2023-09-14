@@ -48,7 +48,7 @@ const FIXERS: IFixer[] = [
             return "www.rxyddit.com";
         },
     },
-    { // Deviantart
+    { // DeviantArt
         urlMatches(domain: string): boolean {
             return contains(["www.deviantart.com", "deviantart.com"], domain);
         },
