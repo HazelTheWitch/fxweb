@@ -40,6 +40,22 @@ const FIXERS: IFixer[] = [
             return "www.ddinstagram.com";
         },
     },
+    { // Reddit
+        urlMatches(domain: string): boolean {
+            return contains(["www.reddit.com", "reddit.com"], domain);
+        },
+        fix(domain: string): string {
+            return "www.rxyddit.com";
+        },
+    },
+    { // Deviantart
+        urlMatches(domain: string): boolean {
+            return contains(["www.deviantart.com", "deviantart.com"], domain);
+        },
+        fix(domain: string): string {
+            return "www.fxdeviantart.com";
+        },
+    },
 ]
 
 export default FIXERS;
